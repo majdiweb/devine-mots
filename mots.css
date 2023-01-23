@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   background-image: url('img/nuage_mots_creer.jpg');
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(159, 175, 196, 0.918);
+    border-radius: 20px;
+}
+.coleur, .posi{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+p{
+    padding-left: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+}
+.vert, .jaune, .rouge{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.vert{
+    background-color: green;
+    
+}
+.jaune{
+    background-color: yellow;
+    
+}
+.rouge{
+    background-color: red;
+    
+}
+.test{
+    display: flex;
+    width: 800px;
+    height: 450px;
+}
+#btn{
+    width: 205px;
+    height: 30px;
+    background-color: rgb(2, 133, 2);
+    color: white;
+    font-size: 15px;
+    border: 0;
+
+}
+#btn:hover{
+    background-color: rgb(119, 218, 119);
+    color: black;
+}
+#ecrire, .zonetest{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+input{
+    height: 40px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.gree , .yello, .rede{
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+.gree{
+    background-color: green;
+}
+.yello{
+    background-color: yellow;
+}
+.rede{
+    background-color: red;
+}

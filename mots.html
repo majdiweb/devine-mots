@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devine le mots </title>
+    <link rel="stylesheet" href="mots.css">
+</head>
+<body>
+    <div class="container">
+        <div class="coleur">
+            <div class="posi">
+                <div class="vert"></div><p>position et lettre correcte</p>
+            </div>
+            <div class="posi">
+                <div class="jaune"></div><p>lettre correcte position incorrecte</p>
+            </div>
+            <div class="posi">
+                <div class="rouge"></div><p>position et lettre incorrecte</p>
+            </div>
+        </div>
+        <h3 class="essai">vous avez 10 essai</h3>
+        <div class="test">
+            <div id="ecrire"><h2>Mots de 6 Lettres</h2><input type="text" name="ecrire" id="ecrir" placeholder="ton Mots" maxlength="6" uppercase="true"><a href="#" id="envoi"><button id="btn">Envoyer</button></a></div>
+            <div class="zonetest"><table class="tester"></table></div>
+        </div>
+    </div>
+    <script src="mots.js"></script>
+</body>
+</html>
